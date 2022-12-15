@@ -59,6 +59,12 @@ header {
     padding-top: 50px;
 }
 
+.solo-project-description-style {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
 .solo-project {
     display: flex;
     flex-direction: column;
@@ -67,7 +73,54 @@ header {
     height: 100vh;
 }
 
+.solo-project-div {
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
 .delfi-picture {
-    width: 1896px;
-    height: 927px;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+.group-projects {
+    background-color: rgb(58, 54, 54);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.group-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.group-project-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+.group-project-description-style {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+.group-project-div {
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.ametikool-100-picture {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
 }
